@@ -18,13 +18,7 @@ do{
 }while(a>1)
 
 // FOR EACH
-function func() {
-    const items = [1, 29, 47];
-    const copy = [];
-    items.forEach(function (item) {
-        copy.push(item * item);
-    });
-    console.log(copy);
-    }
-    func();
-    
+var arr = [28,52,36,71,14,52]
+arr.forEach(function(val){
+    console.log(val+5)
+})

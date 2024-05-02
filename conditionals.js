@@ -14,7 +14,7 @@ else{
 }
 
 // ELSE IF
-var time = 10;4
+var time = 10;
 if(time === 2){
     console.log("Taaliya")
 }
