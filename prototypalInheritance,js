@@ -1,0 +1,9 @@
+// PROTOTYPAL INHERITANCE
+
+// new blank obj ke through THIS ki value de skte hai
+function abcd(){
+    this.username = "Ravi"
+    this.age = 25
+}
+const ans1 = new abcd()
+console.log(ans1)                //--------> {username: 'Ravi', age: 25}, yaha pe THIS ki value ye ho gyi
